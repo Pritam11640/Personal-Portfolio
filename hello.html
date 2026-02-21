@@ -84,7 +84,17 @@
 
 <section id="contact">
     <h2>Contact Me</h2>
-    <form id="contactForm">
+    <form action="https://formspree.io/f/xvzbwpyb" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+
+</form>
         <input type="text" placeholder="Your Name" required>
         <input type="email" placeholder="Your Email" required>
         <textarea placeholder="Your Message" required></textarea>
@@ -101,4 +111,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
